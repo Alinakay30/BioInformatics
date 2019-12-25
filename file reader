@@ -1,0 +1,23 @@
+import re
+file = open('file')
+
+instrument = []
+run_number = [99999]
+flowcell_ID = []
+lane= [99999]
+title = [99999]
+xcoor = [99999]
+ycoor = [99999]
+read = read
+is_filtered = is_filtered
+control = control
+index_sequence = index_sequence
+
+i = 0
+with open('file') as f:
+    for line in f:
+        name, x, y, = line.split(":")
+        name.append(id)
+        xcoor[i] = x
+        ycoor[i] = y
+        print(name[i] + " " + xcoor[i] + " " + ycoor[i])

@@ -1,0 +1,7 @@
+import csv
+
+with open('mycor.csv', 'w', newline='') as f:
+    writer = csv.writer(f)
+
+    writer.writerow(['Name', 'x-cor','y-cor'])
+    writer.writerow(['hello', 1281, -1684])
